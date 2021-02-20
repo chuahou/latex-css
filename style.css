@@ -287,8 +287,10 @@ caption::before {
 }
 
 /* Center align the title */
-h1:first-child {
+h1.title {
   text-align: center;
+  font-size: 2.6rem;
+  margin-top: 1rem;
 }
 
 /* Nested ordered list for ToC */
@@ -511,20 +513,20 @@ input.sidenote-toggle {
 
 /* Heading typography */
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 3.25rem;
-  margin-bottom: 1.625rem;
+  margin-top: 3rem;
 }
 
 h2 {
   font-size: 1.7rem;
   line-height: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 h3 {
-  font-size: 1.4rem;
-  margin-top: 2.5rem;
+  font-size: 1.3rem;
+  margin-top: 2rem;
 }
 
 h4 {
@@ -570,5 +572,14 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
 }
