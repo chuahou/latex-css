@@ -117,9 +117,9 @@ dd {
   margin: 0;
 }
 
-/* Make default font-size 1rem and add smooth scrolling to anchors */
+/* Make default font-size 1.15rem and add smooth scrolling to anchors */
 html {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   scroll-behavior: smooth;
 }
 
